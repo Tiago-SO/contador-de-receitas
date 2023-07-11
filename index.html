@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3&amp;family=Source+Serif+4:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <title>Página de receitas</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <section class="top">
+      <picture>
+        <img
+          src="https://source.unsplash.com/random/409x293/?brigadeiro,doce"
+          alt="Imagem ilustrativa de brigadeiro"
+        />
+      </picture>
+
+      <div class="info">
+        <h1>Brigadeiro</h1>
+        <p>Doce típico de chocolate com granulados</p>
+
+        <div class="buttons">
+          <span>Porções</span>
+
+          <button id="button-plus" onclick="increaseCounter()">
+            <i class="fi fi-rs-add"></i>
+          </button>
+          <p id="counter">01</p>
+          <button id="button-less" onclick="decreaseCounter()">
+            <i class="fi fi-rs-minus-circle"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="col1">
+        <div>
+          <i class="fi fi-rs-shopping-basket"></i>
+
+          <h1>Ingredientes</h1>
+        </div>
+        <ul>
+          <li>1 lata de leite condensado</li>
+          <li>1 colher de sopa de manteiga sem sal</li>
+          <li>3 colheres de sopa de chocolate em pó</li>
+        </ul>
+      </div>
+
+      <div class="col2">
+        <div>
+          <i class="fi fi-rs-cauldron"></i>
+
+          <h1>Modo de preparo</h1>
+        </div>
+
+        <ol>
+          <li>Misturar todos os ingredientes</li>
+          <li>Cozinhar em fogo baixo</li>
+          <li>Envolver no granulado</li>
+        </ol>
+      </div>
+    </section>
+  </body>
+</html>
